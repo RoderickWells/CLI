@@ -1,0 +1,20 @@
+app <command>
+
+Usage:
+
+app help                                                        displays a list of the available commands
+
+app init make                                                   creates the folder structure and config files for
+app init cat                                                    creates the config file with default settings
+
+app config show                                                 displays a list of the current config settings
+app config set <key> <new>                                      sets a specific config settings
+app config reset                                                resets the config file with default settings
+
+app token count                                                 displays a count of the token created
+app token list                                                  displays a list of the current tokens
+app token new <username>                                        generates a token for a given username, saves tokens to the json file 
+app token update (phone/email) <username> <phone or email>     updates the phone or email for the user
+app token fetch <username>                                      fetches a token for a given username
+app search <username>                                           creates a DLL and searches for a username.
+

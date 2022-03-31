@@ -1,0 +1,7 @@
+
+app init <command>
+
+Usage:
+
+init make           creates the views folder structure and once run again the init.txt file
+init cat            creates the config file with default settings
